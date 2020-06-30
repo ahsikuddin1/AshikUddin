@@ -1,84 +1,85 @@
 <!DOCTYPE html>
+<!--Assignment 2 for CSC 101-->
+<!--Best viewed in Google Chrome and Safari-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sharna J Hossain's Profile & Gallery</title>
+    <link rel="stylesheet" href="assets/main.css" />
+  </head>
 
-<head>
-<link <!DOCTYPE html>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
-<style>
-body {
-  font-family: Times, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background:pink
-}
-div {
-  height: 220px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 18px;
-  font: Times;
-}
-h1 {
-  font-family: 'Londrina Solid', cursive;
-  text-align: center;
-  font-size: 85px;
-  color: green;
-  margin: 60px 0 0 0;
-}
-h2 {
-  text-align: center;
-  color: red;
-  margin: 0px 0 80px 0;
-}
-p {
-  color: rgba(255,255,255,1);
-  background: black
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 20px;
-  text-align: center;
-  position: absolute;
-  bottom:10;
-  margin:10;
-  font-family:'Londrina Solid'
-}
+  <body>
+    <header>
+      <h1 class="title">Sharna J Hossain's Profile</h1>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Profile</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+      </ul>
+    </header>
 
-.first{
-  background-image: url("https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg");
-}
-.second{
-  background-image: url("https://www.honeywhatscooking.com/wp-content/uploads/2020/04/Punjabi-Dal-Makhani-No-Cream39-2.jpg");
-  padding: 20px;
-}
-.dessert{
-  background-image: url("https://c.ndtvimg.com/2019-12/rt2n8olg_rasgulla_625x300_04_December_19.jpg");
-  padding: 20px;
-}
-.price {
-  float: right;
-}
-.small {
-  text-align: center; 
-</style>
-</head>
-<body>
-<h1>Fulkole Inc. </h1>
-<h2>A Taste of Bangladesh </h2>
-<div class="first">
-  <p>Butter Chicken <span class="price">$14</span><br />
-  <small>Shredded pieces of tandoori chicken cooked with butter in a creamy sauce. Served with basmati rice. </small></p>
-</div>
-<div class="second">
-  <p>Daal Makhni <span class="price">$12</span><br />
-  <small>Dal makhani is a classic Indian dish made with whole urad dal, rajma, butter and spices.Served with basmati rice.</small></p>
-</div>
-  
-<div class="dessert">
-  <p>Rasgulla <span class="price">$6</span><br />
-  <small>Rasgulla is a milk based sweet made by curdling milk, draining the whey and kneading the milk solids to make balls. .</small></p>
-</div>
-</body>
-# AshikUddin
-My first website
+    <main>
+      <img class="portrait" src="assets/my-picture.JPG" alt="me" />
+
+      <div class="Bio">
+        <h2>Who am I?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          auctor metus velit, ut porta dolor vestibulum eget. Aliquam non dictum
+          massa. Pellentesque porttitor mattis ex, et tincidunt ex ornare ut.
+          Pellentesque urna nibh, lobortis vel nunc at, lobortis pulvinar
+          tellus. Mauris aliquam quam eu aliquet auctor. Duis risus libero,
+          lobortis ac efficitur eu, rutrum in odio. Cras semper, quam vitae
+          cursus maximus, leo nisi sodales nisi, ut porttitor turpis sapien eget
+          magna. Sed blandit, lectus ac condimentum fermentum, lorem neque
+          fermentum neque, ac porta est justo ut nunc. Nunc sed augue aliquet
+          metus cursus convallis vitae vel velit. Nunc quis tincidunt arcu.
+          Integer et semper nulla. Donec semper urna quis purus venenatis, vel
+          euismod tortor sollicitudin. Etiam vitae massa sit amet tortor
+          sollicitudin rutrum ut sed nibh. Nam ut urna sed sem dapibus egestas
+          ut vel ante. Integer pulvinar tortor ut libero molestie mollis.
+        </p>
+
+        <h3>More Info</h3>
+        <ul>
+          <li>Born on June 7, 1997</li>
+          <li>Hobbies:</li>
+          <ul>
+            <li>Coding</li>
+            <li>Makeup</li>
+            <li>Graphic Design</li>
+          </ul>
+          <li>Favorite TV Shows:</li>
+          <ul>
+            <li>Game of Thrones</li>
+            <li>She's Gotta Have It</li>
+            <li>Mr Robot</li>
+          </ul>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <center>
+        <a href="mailto:sharnajhossain@gmail.com" target="_blank">
+          <img src="social-media-icons/mail.png" />
+        </a>
+        <a href="https://www.facebook.com/sharnajhossain" target="_blank">
+          <img src="social-media-icons/facebook.png"
+        /></a>
+
+        <a href="https://www.instagram.com/sharnajh/" target="_blank">
+          <img src="social-media-icons/instagram.png"
+        /></a>
+
+        <a href="https://www.linkedin.com/in/sharnahossain" target="_blank">
+          <img src="social-media-icons/linkedin.png"
+        /></a>
+
+        <a href="https://github.com/sharnajh" target="_blank">
+          <img src="social-media-icons/github.png"
+        /></a>
+      </center>
+    </footer>
+  </body>
+</html>
